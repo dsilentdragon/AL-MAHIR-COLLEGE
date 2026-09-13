@@ -1,9 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" rx="20" fill="#0B3D2E" />
-  <!-- Islamic Star Geometric Pattern Accent -->
-  <polygon points="50,15 61,35 83,35 65,49 72,71 50,57 28,71 35,49 17,35 39,35" fill="#D6B65A" opacity="0.9" />
-  <!-- Crescent & Book symbol -->
-  <path d="M 50 30 A 18 18 0 1 0 68 48 A 15 15 0 1 1 50 30 Z" fill="#FFFFFF" />
-  <path d="M 32 68 Q 50 60 68 68 L 68 76 Q 50 68 32 76 Z" fill="#C62828" />
-  <text x="50" y="88" font-family="'Playfair Display', serif" font-size="11" font-weight="bold" fill="#D6B65A" text-anchor="middle">ALMAHIR</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>AlMahir College Dutse favicon</title>
+  <desc>Green school emblem with an open book and red pencil</desc>
+
+  <!-- Outer school-emblem ring -->
+  <circle cx="256" cy="256" r="238" fill="#ffffff" stroke="#4f9d3a" stroke-width="24"/>
+  <circle cx="256" cy="256" r="205" fill="none" stroke="#2f7130" stroke-width="7"/>
+
+  <!-- Open book -->
+  <path d="M108 196
+           C145 178 190 180 256 211
+           C322 180 367 178 404 196
+           L404 352
+           C356 331 311 333 256 361
+           C201 333 156 331 108 352 Z"
+        fill="#f7fff3" stroke="#59a943" stroke-width="12"
+        stroke-linejoin="round"/>
+
+  <!-- Book center -->
+  <path d="M256 211 L256 361" fill="none" stroke="#59a943" stroke-width="10"/>
+
+  <!-- Book page lines -->
+  <g fill="none" stroke="#78b85c" stroke-width="6" stroke-linecap="round">
+    <path d="M132 224 C171 214 211 221 244 237"/>
+    <path d="M132 243 C171 233 211 240 244 256"/>
+    <path d="M132 262 C171 252 211 259 244 275"/>
+    <path d="M132 281 C171 271 211 278 244 294"/>
+    <path d="M132 300 C171 290 211 297 244 313"/>
+    <path d="M380 224 C341 214 301 221 268 237"/>
+    <path d="M380 243 C341 233 301 240 268 256"/>
+    <path d="M380 262 C341 252 301 259 268 275"/>
+    <path d="M380 281 C341 271 301 278 268 294"/>
+    <path d="M380 300 C341 290 301 297 268 313"/>
+  </g>
+
+  <!-- Pencil -->
+  <g transform="rotate(28 326 202)">
+    <rect x="306" y="112" width="38" height="160" rx="7"
+          fill="#d71920" stroke="#a70f15" stroke-width="7"/>
+    <polygon points="306,272 325,306 344,272"
+             fill="#f4d4b2" stroke="#a70f15" stroke-width="7"/>
+    <polygon points="319,295 325,306 331,295" fill="#333333"/>
+    <rect x="306" y="112" width="38" height="28" rx="7"
+          fill="#ef5558" stroke="#a70f15" stroke-width="7"/>
+  </g>
+
+  <!-- Small stars, echoing the original emblem -->
+  <path d="M118 390 l8 17 19 2-14 12 4 19-17-10-17 10 4-19-14-12 19-2z"
+        fill="#65aa3e" stroke="#2f7130" stroke-width="4"/>
+  <path d="M394 390 l8 17 19 2-14 12 4 19-17-10-17 10 4-19-14-12 19-2z"
+        fill="#65aa3e" stroke="#2f7130" stroke-width="4"/>
 </svg>
