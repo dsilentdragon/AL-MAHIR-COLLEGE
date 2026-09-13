@@ -115,7 +115,7 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={() => handleNavClick('home')}
           >
             <img 
-  src="/images/al-mahir-college-logo.png" 
+  src="/images/almahir-college-logo.png" 
   alt="Al-Mahir College Crest" 
   className="h-12 w-auto object-contain group-hover:scale-105 transition-transform" 
 />
