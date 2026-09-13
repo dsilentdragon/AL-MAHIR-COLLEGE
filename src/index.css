@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-deep-green: #0B3D2E;
+    --color-green: #176B45;
+    --color-red-accent: #C62828;
+    --color-gold-accent: #D6B65A;
+    --color-off-white: #F8FAF7;
+    --color-dark-text: #17231D;
+    --color-white: #FFFFFF;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-dark-text);
+    background-color: var(--color-off-white);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Islamic Star & Geometric Pattern Utility */
+.bg-islamic-pattern {
+  background-color: #0B3D2E;
+  background-image: radial-gradient(#D6B65A 0.75px, transparent 0.75px), radial-gradient(#D6B65A 0.75px, #0B3D2E 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.bg-islamic-pattern-light {
+  background-color: #F8FAF7;
+  background-image: radial-gradient(#176B45 0.65px, transparent 0.65px), radial-gradient(#176B45 0.65px, #F8FAF7 0.65px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+.text-gold {
+  color: #D6B65A;
+}
+
+.bg-deep-green {
+  background-color: #0B3D2E;
+}
+
+.bg-brand-green {
+  background-color: #176B45;
+}
+
+.border-gold {
+  border-color: #D6B65A;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #176B45;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0B3D2E;
+}
