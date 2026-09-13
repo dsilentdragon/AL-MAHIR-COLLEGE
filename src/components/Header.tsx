@@ -47,7 +47,7 @@ export const Header: React.FC<HeaderProps> = ({
 
   const handleWhatsAppClick = () => {
     trackInteraction('whatsapp');
-    window.open(`https://wa.me/2347035886851?text=Hello%20AlMahir%20College%20Dutse,%20I%20would%20like%20to%20make%20an%20enquiry.`, '_blank');
+    window.open(`https://wa.me/+2348083660217?text=Hello%20AlMahir%20College%20Dutse,%20I%20would%20like%20to%20make%20an%20enquiry.`, '_blank');
   };
 
   return (
@@ -72,7 +72,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex items-center space-x-6">
             <span className="flex items-center gap-1.5 hover:text-white transition-colors cursor-pointer" onClick={handlePhoneClick}>
               <Phone className="w-3.5 h-3.5 text-[#D6B65A]" />
-              <span>07035886851 | 08050342151 | 08070861428</span>
+              <span>07035888851 | 08050342151 | 08070861428</span>
             </span>
             <span className="flex items-center gap-1.5 hover:text-white transition-colors cursor-pointer" onClick={() => { trackInteraction('email'); window.location.href = `mailto:${schoolInfo.email}`; }}>
               <Mail className="w-3.5 h-3.5 text-[#D6B65A]" />

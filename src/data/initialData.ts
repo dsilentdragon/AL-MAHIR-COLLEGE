@@ -9,7 +9,7 @@ export const INITIAL_SCHOOL_INFO: SchoolInfo = {
   heroHeadline: "ALMAHIR COLLEGE DUTSE",
   heroSubheadline: "Knowledge That Builds Character.",
   heroBody: "At AlMahir College Dutse, we nurture young learners through quality education in a conducive Islamic environment—developing knowledge, faith, leadership and strong moral values.",
-  phones: ["07035886851", "08050342151", "08070861428"],
+  phones: ["07035888851", "08050342151", "08070861428"],
   email: "almahircollege@gmail.com",
   missionStatement: "To provide a supportive, conducive Islamic environment where learners acquire academic knowledge, firm faith in Allah, leadership skills, and sound moral values to become responsible Muslims.",
   visionStatement: "Our vision is to provide a conducive and Islamic environment where youths can learn, believe in their Lord and be prepared and guided by Allah, academically and morally, in all the affairs of life and society.",

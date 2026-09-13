@@ -65,7 +65,7 @@ export const Footer: React.FC<FooterProps> = ({ schoolInfo, setActiveSection, op
             {schoolInfo.location}
           </p>
           <p className="font-mono text-[#D6B65A]">
-            07035886851 &bull; 08050342151 &bull; 08070861428
+            07035888851 &bull; 08050342151 &bull; 08070861428
           </p>
           <p className="text-gray-300">
             {schoolInfo.email}
