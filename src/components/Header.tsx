@@ -114,11 +114,12 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center space-x-3 cursor-pointer group"
             onClick={() => handleNavClick('home')}
           >
-            <div className="w-12 h-12 rounded-xl bg-[#0B3D2E] border-2 border-[#D6B65A] flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform">
-              <svg className="w-7 h-7 text-[#D6B65A]" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-              </svg>
-            </div>
+            <img 
+  src="/images/al-mahir-logo.png" 
+  alt="Al-Mahir College Crest" 
+  className="h-12 w-auto object-contain group-hover:scale-105 transition-transform" 
+/>
+
             <div>
               <span className="font-serif font-extrabold text-lg sm:text-xl text-[#0B3D2E] tracking-tight block leading-tight">
                 ALMAHIR COLLEGE
