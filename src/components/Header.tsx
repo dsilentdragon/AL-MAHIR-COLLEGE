@@ -209,7 +209,7 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             <div className="flex justify-between items-center text-xs text-gray-500 pt-2 px-2">
-              <span onClick={handlePhoneClick} className="cursor-pointer underline">07035886851</span>
+              <span onClick={handlePhoneClick} className="cursor-pointer underline">07035888851</span>
               <button onClick={() => { setMobileMenuOpen(false); openAdmin(); }} className="text-[#0B3D2E] font-semibold underline flex items-center gap-1">
                 <Shield className="w-3 h-3 text-[#D6B65A]" /> Admin Portal
               </button>
