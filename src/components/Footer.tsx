@@ -22,11 +22,12 @@ export const Footer: React.FC<FooterProps> = ({ schoolInfo, setActiveSection, op
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         {/* Top Branding Section */}
-        <div className="text-center space-y-4 max-w-3xl mx-auto">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-[#176B45] border-2 border-[#D6B65A] text-[#D6B65A] shadow-xl">
-            <svg className="w-10 h-10 text-[#D6B65A]" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-            </svg>
+                   <div className="inline-flex items-center">
+            <img 
+              src="/images/almahir-college-logo.png" 
+              alt="AlMahir College Logo" 
+              className="h-12 w-auto object-contain" 
+            />
           </div>
 
           <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
