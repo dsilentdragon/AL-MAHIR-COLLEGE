@@ -251,7 +251,6 @@ export const AdminModal: React.FC<AdminModalProps> = ({
                 title="Download Website Source ZIP"
               >
                 <Download className="w-4 h-4" />
-                <span>{isZipping ? 'Generating ZIP...' : 'Download Source ZIP'}</span>
               </button>
             )}
 
