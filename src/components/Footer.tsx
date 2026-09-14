@@ -22,14 +22,15 @@ export const Footer: React.FC<FooterProps> = ({ schoolInfo, setActiveSection, op
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         {/* Top Branding Section */}
-                   <div className="inline-flex items-center">
+         <div className="flex justify-center mb-4">
             <img 
               src="/images/almahir-college-logo.png" 
               alt="AlMahir College Logo" 
-              className="h-12 w-auto object-contain" 
+              className="h-16 w-auto object-contain" 
             />
           </div>
 
+        
           <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
             ALMAHIR COLLEGE DUTSE
           </h2>
