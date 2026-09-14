@@ -43,7 +43,7 @@ export const Contact: React.FC<ContactProps> = ({ schoolInfo }) => {
 
   const handleWhatsApp = () => {
     trackInteraction('whatsapp');
-    window.open(`https://wa.me/2347035888851?text=Hello%20AlMahir%20College%20Dutse,%20I%20am%20reaching%20out%20via%20your%20website.`, '_blank');
+    window.open(`https://wa.me/2348083660217?text=Hello%20AlMahir%20College%20Dutse,%20I%20am%20reaching%20out%20via%20your%20website.`, '_blank');
   };
 
   const handleEmail = () => {
