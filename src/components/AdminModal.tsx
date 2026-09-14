@@ -15,8 +15,7 @@ import {
   saveNews,
   updateEnquiryStatus,
   deleteEnquiry
-} from '../utils/storage';
-import { generateAndDownloadSourceZip } from '../utils/zipGenerator';
+} from '../utils/storage
 import {
   X,
   Lock,
@@ -206,12 +205,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
     }
   };
 
-  const handleDownloadZip = async () => {
-    setIsZipping(true);
-    try {
-      await generateAndDownloadSourceZip();
-    } catch (err) {
-      console.error(err);
+ 
       alert('Failed to generate ZIP archive.');
     } finally {
       setIsZipping(false);
@@ -247,18 +241,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
             
             )}
 
-            <button
-              onClick={onClose}
-              className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer"
-            >
-              <X className="w-6 h-6" />
-            </button>
-          </div>
-        </div>
-
-        {/* Modal Main Content Container */}
-        {!session.isLoggedIn ? (
-          /* Login Screen */
+                 /* Login Screen */
           <div className="p-8 sm:p-12 max-w-md mx-auto my-auto w-full space-y-6">
             <div className="text-center space-y-2">
               <div className="w-16 h-16 bg-[#0B3D2E] text-[#D6B65A] rounded-2xl flex items-center justify-center mx-auto border-2 border-[#D6B65A] shadow-lg">
