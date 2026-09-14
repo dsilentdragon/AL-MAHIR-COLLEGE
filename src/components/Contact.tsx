@@ -197,7 +197,7 @@ export const Contact: React.FC<ContactProps> = ({ schoolInfo }) => {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="07035886851"
+                      placeholder="07035888851"
                       className="w-full px-4 py-2.5 rounded-xl border border-gray-300 focus:ring-2 focus:ring-[#176B45] focus:outline-none text-sm"
                     />
                   </div>

@@ -47,7 +47,7 @@ export const Header: React.FC<HeaderProps> = ({
 
   const handleWhatsAppClick = () => {
     trackInteraction('whatsapp');
-    window.open(`https://wa.me/+2348083660217?text=Hello%20AlMahir%20College%20Dutse,%20I%20would%20like%20to%20make%20an%20enquiry.`, '_blank');
+    window.open(`https://wa.me/2348083660217?text=Hello%20AlMahir%20College%20Dutse,%20I%20would%20like%20to%20make%20an%20enquiry.`, '_blank');
   };
 
   return (
