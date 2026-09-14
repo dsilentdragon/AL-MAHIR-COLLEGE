@@ -244,14 +244,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
 
           <div className="flex items-center space-x-3">
             {session.isLoggedIn && (
-              <button
-                onClick={handleDownloadZip}
-                disabled={isZipping}
-                className="bg-[#D6B65A] hover:bg-[#c4a446] text-[#0B3D2E] font-bold text-xs px-4 py-2 rounded-xl transition-all shadow cursor-pointer flex items-center gap-1.5"
-                title="Download Website Source ZIP"
-              >
-                <Download className="w-4 h-4" />
-              </button>
+            
             )}
 
             <button
@@ -327,7 +320,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
                 onClick={() => setPasswordInput('almahir2026#admin')}
                 className="text-xs text-[#176B45] hover:underline font-semibold cursor-pointer"
               >
-                Auto-Fill Demo Admin Password (almahir2026#admin)
+
               </button>
             </div>
           </div>
