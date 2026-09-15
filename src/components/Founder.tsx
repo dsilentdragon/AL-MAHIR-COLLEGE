@@ -19,7 +19,7 @@ export const Founder: React.FC<FounderProps> = ({ schoolInfo }) => {
               <div className="relative max-w-sm w-full">
                 <div className="rounded-2xl overflow-hidden border-4 border-[#0B3D2E] shadow-2xl bg-white">
                   <img
-                    src="/images/founder.png"
+                    src="/images/founder-v2.png"
                     alt="Sheikh Muhammad Jamiu Sulaiman"
                     className="w-full h-80 object-cover object-top"
                   />

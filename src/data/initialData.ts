@@ -95,7 +95,7 @@ export const INITIAL_NEWS: NewsItem[] = [
     content: "AlMahir College Dutse marked 10 years of educational excellence in Dutse, Jigawa State. Founded on August 25, 2016 by Sheikh Muhammad Jamiu Sulaiman, Chief Imam of Yoruba Mosque, the institution continues its commitment to developing knowledge, faith, leadership and character.",
     date: "2026-08-25",
     category: "Announcement",
-    imageUrl: "/images/founder-official.png",
+    imageUrl: "/images/founder-v2.png",
     published: true
   }
 ];
