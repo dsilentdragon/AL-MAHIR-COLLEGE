@@ -2,7 +2,7 @@ import { SchoolInfo, GalleryItem, NewsItem, EnquiriesItem, AnalyticsStats, Admin
 import { INITIAL_SCHOOL_INFO, INITIAL_GALLERY, INITIAL_NEWS, INITIAL_ENQUIRIES, INITIAL_ANALYTICS } from '../data/initialData';
 
 const KEYS = {
-  SCHOOL_INFO: 'almahir_school_info',
+  SCHOOL_INFO: 'almahir_school_info_v2',
   GALLERY: 'almahir_gallery',
   NEWS: 'almahir_news',
   ENQUIRIES: 'almahir_enquiries',
